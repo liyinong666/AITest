@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="card">
+    <text class="title">关于</text>
+    <text class="desc">{{appName}}</text>
+    <text class="desc">版本：{{version}}</text>
+  </view>
+
+  <view class="card">
+    <text class="label">项目说明</text>
+    <text class="tip">
+      这是一个使用微信原生框架搭建的示例小程序，用于演示页面、数据绑定、事件与页面跳转。
+    </text>
+  </view>
+
+  <button class="btn primary" bindtap="onTapBack">返回首页</button>
+</view>

@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="card">
+    <text class="title">你好，微信小程序 👋</text>
+    <text class="desc">{{appName}} 的项目骨架已经跑起来了，可以从这里开始开发。</text>
+  </view>
+
+  <view class="card">
+    <text class="label">点击次数</text>
+    <text class="count">{{count}}</text>
+    <view class="actions">
+      <button class="btn primary" bindtap="onTapAdd">+1</button>
+      <button class="btn" bindtap="onTapReset">重置</button>
+    </view>
+  </view>
+
+  <button class="btn link" bindtap="onTapAbout">查看关于页 →</button>
+</view>
